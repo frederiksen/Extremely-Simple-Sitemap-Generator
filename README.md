@@ -38,7 +38,7 @@ Example use:
       var stringWriter = new StringWriter();
       sitemapDoc.Save(stringWriter);
   
-      var sitemapString = wr.GetStringBuilder().ToString();
+      var sitemapString = stringWriter.GetStringBuilder().ToString();
 
       // Fix .NET bug: http://stackoverflow.com/a/24075012/600559
       sitemapString =  sitemapString.Replace("utf-16", "utf-8");
