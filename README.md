@@ -19,6 +19,7 @@ Example use:
             { "de", Url.Action("Index", "Home", new RouteValueDictionary(new { language = "de" }), Request.Url.Scheme) },
             { "da", Url.Action("Index", "Home", new RouteValueDictionary(new { language = "da" }), Request.Url.Scheme) },
             { "es", Url.Action("Index", "Home", new RouteValueDictionary(new { language = "es" }), Request.Url.Scheme) },
+            { "en", Url.Action("Index", "Home", null, Request.Url.Scheme) },          
           }
         ));
 
@@ -31,6 +32,7 @@ Example use:
             { "de", Url.Action("Index", "Contact", new RouteValueDictionary(new { language = "de" }), Request.Url.Scheme) },
             { "da", Url.Action("Index", "Contact", new RouteValueDictionary(new { language = "da" }), Request.Url.Scheme) },
             { "es", Url.Action("Index", "Contact", new RouteValueDictionary(new { language = "es" }), Request.Url.Scheme) },
+            { "en", Url.Action("Index", "Contact", null, Request.Url.Scheme) },
           }
         ));
       
